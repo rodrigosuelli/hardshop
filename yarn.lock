@@ -2139,9 +2139,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hardshop@workspace:.":
+"hardshop-web@workspace:.":
   version: 0.0.0-use.local
-  resolution: "hardshop@workspace:."
+  resolution: "hardshop-web@workspace:."
   dependencies:
     "@types/node": 16.11.7
     "@types/react": 17.0.34
