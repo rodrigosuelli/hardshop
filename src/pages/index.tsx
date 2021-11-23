@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import { MdMailOutline, MdLockOutline } from 'react-icons/md';
 
 import styles from '../styles/Login.module.css';
 
@@ -16,12 +17,14 @@ const Login: NextPage = () => {
 
       <Image src={hardshopLogo} alt="Logo" />
 
-      <div className={styles.formContainer}>
+      <form className={styles.formContainer}>
         <h1 className={styles.title}>Entrar</h1>
         <div className={styles.formField}>
+          <MdMailOutline size={22} className={styles.inputIcon} />
           <input placeholder="Email" type="email" name="email" id="email" />
         </div>
         <div className={styles.formField}>
+          <MdLockOutline size={22} className={styles.inputIcon} />
           <input
             placeholder="Senha"
             type="password"
@@ -32,7 +35,7 @@ const Login: NextPage = () => {
         <Link href="/">
           <a className={styles.loginBtn}>Entrar</a>
         </Link>
-      </div>
+      </form>
     </div>
   );
 };
