@@ -47,6 +47,7 @@
 .title {
   margin-bottom: 40px;
   align-self: flex-start;
+  line-height: 1.22;
 }
 
 .formField {
@@ -77,6 +78,7 @@
   border: 2px solid #fff;
   padding: 13px 10px 13px 40px;
   transition: all 0.3s ease;
+  line-height: 1;
 }
 
 .formField input::placeholder {
@@ -97,6 +99,7 @@
   border-radius: 5px;
   background-color: var(--primary);
   transition: all 0.15s;
+  line-height: 1.2;
 }
 
 .loginBtn:hover {
