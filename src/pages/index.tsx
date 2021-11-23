@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import styles from '../styles/Login.module.css';
 
-import hardshopLogo from '../../public/hardshop-logo.png';
+import hardshopLogo from '../../public/images/hardshop-logo.png';
 
 const Login: NextPage = () => {
   return (
