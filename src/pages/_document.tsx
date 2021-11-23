@@ -21,35 +21,38 @@ class MyDocument extends Document {
             content="Ferramenta de controle de estoque e vendas."
           />
           <meta property="og:type" content="website" />
+          <meta property="og:image" content="/hardshop-logo-1200x630.png" />
+          {/* Twitter Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="hardshop.vercel.app" />
+          <meta property="twitter:url" content="https://hardshop.vercel.app/" />
+          <meta name="twitter:title" content="Hardshop" />
           <meta
-            property="og:image"
-            content="/favicons/hardshop-logo-1200x630.png"
+            name="twitter:description"
+            content="Ferramenta de controle de estoque e vendas."
           />
+          <meta name="twitter:image" content="/hardshop-logo-1200x630.png" />
           {/* Favicon */}
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/favicons/apple-touch-icon.png"
+            href="/apple-touch-icon.png"
           />
-          <link rel="icon" href="/favicons/favicon.ico" />
+          <link rel="icon" href="/favicon.ico" />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/favicons/favicon-32x32.png"
+            href="/favicon-32x32.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/favicons/favicon-16x16.png"
+            href="/favicon-16x16.png"
           />
-          <link rel="manifest" href="/favicons/site.webmanifest" />
-          <link
-            rel="mask-icon"
-            href="/favicons/safari-pinned-tab.svg"
-            color="#5bbad5"
-          />
+          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
           {/* Roboto GFonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
