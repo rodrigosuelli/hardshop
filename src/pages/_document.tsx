@@ -21,7 +21,10 @@ class MyDocument extends Document {
             content="Ferramenta de controle de estoque e vendas."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="/favicons/og-image.png" />
+          <meta
+            property="og:image"
+            content="/favicons/hardshop-logo-1200x630.png"
+          />
           {/* Favicon */}
           <link
             rel="apple-touch-icon"
