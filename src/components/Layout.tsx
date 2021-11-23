@@ -1,15 +1,15 @@
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 
-export default function Layout({ children }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Sidebar />
 
-      <section className={styles.pageContent}>
+      <main>
         <Navbar />
         {children}
-      </section>
+      </main>
     </>
   );
 }
