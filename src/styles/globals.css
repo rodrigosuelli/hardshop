@@ -1,9 +1,23 @@
+:root {
+  --primary: #109abd;
+  --secondary: #0086a8;
+  --tertiary: #006e8a;
+  --grayInputLight: #666666;
+}
+
 html,
-body {
-  padding: 0;
-  margin: 0;
+body,
+button,
+input,
+select,
+textarea {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
+}
+
+input {
+  border-radius: 5px;
 }
 
 a {
@@ -13,6 +27,9 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
 
 h1 {

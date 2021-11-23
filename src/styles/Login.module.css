@@ -1,0 +1,98 @@
+.container:before {
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-color: #000;
+  background-image: url('../../public/login-background.png');
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  filter: blur(8px);
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding: 30px 40px;
+  height: 100vh;
+}
+
+.formContainer {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  align-self: center;
+  border-radius: 5px;
+  padding: 30px 30px 55px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.title {
+  margin-bottom: 40px;
+  align-self: flex-start;
+}
+
+.formField {
+  width: 100%;
+}
+
+.formField {
+  margin-bottom: 15px;
+}
+
+.formField:last-of-type {
+  margin-bottom: 45px;
+}
+
+.formField input {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 15px 10px;
+  transition: all 0.3s ease;
+}
+
+.formField input::placeholder {
+  color: var(--grayInputLight);
+}
+
+.formField input:focus {
+  border-color: var(--primary);
+}
+
+.loginBtn {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: var(--primary);
+  transition: all 0.15s;
+}
+
+.loginBtn:hover {
+  background-color: var(--secondary);
+}
+
+.loginBtn:active {
+  background-color: var(--tertiary);
+}
