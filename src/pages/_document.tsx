@@ -14,7 +14,6 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
           {/* Open Graph */}
-          <meta property="og:title" content="Hardshop" />
           <meta property="og:url" content="https://hardshop.vercel.app/" />
           <meta
             property="og:description"
@@ -26,7 +25,6 @@ class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="hardshop.vercel.app" />
           <meta property="twitter:url" content="https://hardshop.vercel.app/" />
-          <meta name="twitter:title" content="Hardshop" />
           <meta
             name="twitter:description"
             content="Ferramenta de controle de estoque e vendas."

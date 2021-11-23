@@ -13,6 +13,8 @@ const Login: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Hardshop - Entrar</title>
+        <meta property="og:title" content="Hardshop" key="og-title" />
+        <meta name="twitter:title" content="Hardshop" key="tw-title" />
       </Head>
 
       <Image src={hardshopLogo} alt="Logo" />
