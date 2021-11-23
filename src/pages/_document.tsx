@@ -9,6 +9,20 @@ class MyDocument extends Document {
             name="description"
             content="Ferramenta de controle de estoque e vendas."
           />
+          <meta name="apple-mobile-web-app-title" content="Hardshop" />
+          <meta name="application-name" content="Hardshop" />
+          <meta name="msapplication-TileColor" content="#da532c" />
+          <meta name="theme-color" content="#ffffff" />
+          {/* Open Graph */}
+          <meta property="og:title" content="Hardshop" />
+          <meta property="og:url" content="https://hardshop.vercel.app/" />
+          <meta
+            property="og:description"
+            content="Ferramenta de controle de estoque e vendas."
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="/favicons/og-image.png" />
+          {/* Favicon */}
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -33,10 +47,7 @@ class MyDocument extends Document {
             href="/favicons/safari-pinned-tab.svg"
             color="#5bbad5"
           />
-          <meta name="apple-mobile-web-app-title" content="Hardshop" />
-          <meta name="application-name" content="Hardshop" />
-          <meta name="msapplication-TileColor" content="#da532c" />
-          <meta name="theme-color" content="#ffffff" />
+          {/* Roboto GFonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"
