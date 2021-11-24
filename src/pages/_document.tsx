@@ -51,7 +51,10 @@ class MyDocument extends Document {
           />
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-          {/* Open Graph */}
+          {/* Open Graph (img must be 1200x630 or 1200x1200 and less than 300KB to work in Whatsapp) and you need to use the full path to online address
+          GOOD: https://hardshop.vercel.app/hardshop-logo-1200x630.png
+          BAD (won't work in Whatsap): /hardshop-logo-1200x630.png
+          */}
           <meta property="og:url" content="https://hardshop.vercel.app/" />
           <meta
             property="og:description"
@@ -60,13 +63,13 @@ class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta
             property="og:image"
-            content="https://hardshop.vercel.app/hardshop-logo-1200x1200.png"
+            content="https://hardshop.vercel.app/hardshop-logo-1200x630.png"
           />
           <meta property="og:image:alt" content="logo" />
           <meta property="og:image:type" content="image/png" />
           <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="1200" />
-          {/* Twitter Meta Tags */}
+          <meta property="og:image:height" content="630" />
+          {/* Twitter Meta Tags (summary_large_image is better than summary) */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="hardshop.vercel.app" />
           <meta property="twitter:url" content="https://hardshop.vercel.app/" />
@@ -76,7 +79,7 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:image"
-            content="https://hardshop.vercel.app/hardshop-logo-1200x1200.png"
+            content="https://hardshop.vercel.app/hardshop-logo-1200x630.png"
           />
         </Head>
         <body>
