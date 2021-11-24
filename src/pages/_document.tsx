@@ -20,9 +20,16 @@ class MyDocument extends Document {
             content="Ferramenta de controle de estoque e vendas."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="/hardshop-logo-1200x630.png" />
+          <meta
+            property="og:image"
+            content="https://hardshop.vercel.app/hardshop-logo-1200x1200.png"
+          />
+          <meta property="og:image:alt" content="logo" />
+          <meta property="og:image:type" content="image/png" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="1200" />
           {/* Twitter Meta Tags */}
-          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:card" content="summary" />
           <meta property="twitter:domain" content="hardshop.vercel.app" />
           <meta property="twitter:url" content="https://hardshop.vercel.app/" />
           <meta
@@ -31,7 +38,7 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:image"
-            content="https://hardshop.vercel.app/hardshop-logo-1200x630.png"
+            content="https://hardshop.vercel.app/hardshop-logo-1200x1200.png"
           />
           {/* Favicon */}
           <link
