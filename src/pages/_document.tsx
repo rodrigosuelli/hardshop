@@ -5,14 +5,52 @@ class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
+          {/* Roboto GFonts */}
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin=""
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+            rel="stylesheet"
+          />
+          {/* Description, Keywords, Robots */}
           <meta
             name="description"
             content="Ferramenta de controle de estoque e vendas."
           />
+          <meta
+            name="keywords"
+            content="hardshop, venda de hardware, controle de estoque, ferramenta, controle de vendas, ferramenta de controle de estoque e vendas"
+          />
+          <meta name="robots" content="index, follow" />
+          {/* Favicon */}
           <meta name="apple-mobile-web-app-title" content="Hardshop" />
           <meta name="application-name" content="Hardshop" />
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+          />
+          <link rel="icon" href="/favicon.ico" />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+          />
+          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
           {/* Open Graph */}
           <meta property="og:url" content="https://hardshop.vercel.app/" />
           <meta
@@ -39,38 +77,6 @@ class MyDocument extends Document {
           <meta
             name="twitter:image"
             content="https://hardshop.vercel.app/hardshop-logo-1200x1200.png"
-          />
-          {/* Favicon */}
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png"
-          />
-          <link rel="icon" href="/favicon.ico" />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/favicon-32x32.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/favicon-16x16.png"
-          />
-          <link rel="manifest" href="/site.webmanifest" />
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-          {/* Roboto GFonts */}
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossOrigin=""
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
-            rel="stylesheet"
           />
         </Head>
         <body>
