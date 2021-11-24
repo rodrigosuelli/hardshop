@@ -67,7 +67,7 @@ class MyDocument extends Document {
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="1200" />
           {/* Twitter Meta Tags */}
-          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="hardshop.vercel.app" />
           <meta property="twitter:url" content="https://hardshop.vercel.app/" />
           <meta
