@@ -51,7 +51,7 @@ class MyDocument extends Document {
           />
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-          {/* Open Graph (img must be 1200x630 or 1200x1200 and less than 300KB to work in Whatsapp) and you need to use the full path to online address 
+          {/* Open Graph (img must be 1200x630 or 1200x1200 and less than 300KB to work in Whatsapp) and you need to use the full path to online address
           GOOD: https://hardshop.vercel.app/hardshop-logo-1200x630.png
           BAD (won't work in Whatsap): /hardshop-logo-1200x630.png
           */}
