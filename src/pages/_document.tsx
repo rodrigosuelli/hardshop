@@ -60,7 +60,7 @@ class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta
             property="og:image"
-            content="https://hardshop-web-n6prkae1m-rodrigosuelli.vercel.app/hardshop-logo-1200x630.png"
+            content="https://hardshop.vercel.app/hardshop-logo-1200x630.png"
           />
           <meta property="og:image:alt" content="logo" />
           <meta property="og:image:type" content="image/png" />
@@ -76,7 +76,7 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:image"
-            content="https://hardshop-web-n6prkae1m-rodrigosuelli.vercel.app/hardshop-logo-1200x630.png"
+            content="https://hardshop.vercel.app/hardshop-logo-1200x630.png"
           />
         </Head>
         <body>
