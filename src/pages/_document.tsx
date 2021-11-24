@@ -58,7 +58,10 @@ class MyDocument extends Document {
             content="Ferramenta de controle de estoque e vendas."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="/hardshop-logo-1200x630.png" />
+          <meta
+            property="og:image"
+            content="https://hardshop-web-n6prkae1m-rodrigosuelli.vercel.app/hardshop-logo-1200x630.png"
+          />
           <meta property="og:image:alt" content="logo" />
           <meta property="og:image:type" content="image/png" />
           <meta property="og:image:width" content="1200" />
@@ -71,7 +74,10 @@ class MyDocument extends Document {
             name="twitter:description"
             content="Ferramenta de controle de estoque e vendas."
           />
-          <meta name="twitter:image" content="/hardshop-logo-1200x630.png" />
+          <meta
+            name="twitter:image"
+            content="https://hardshop-web-n6prkae1m-rodrigosuelli.vercel.app/hardshop-logo-1200x630.png"
+          />
         </Head>
         <body>
           <Main />
