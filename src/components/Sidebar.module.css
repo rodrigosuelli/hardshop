@@ -31,6 +31,12 @@
   background-color: #006e8a;
 }
 
+.pageLink.active,
+.pageLink.active:hover,
+.pageLink.active:active {
+  background-color: #006e8a;
+}
+
 .inventoryIcon,
 .salesIcon {
   color: #fff;

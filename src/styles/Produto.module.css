@@ -1,0 +1,80 @@
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.pageInfoContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formField {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.formFieldTwo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.formField input,
+.formFieldTwo input {
+  width: 100%;
+  background-color: #fff;
+  border: 1.5px solid #c6cacf;
+  padding: 13px;
+  transition: all 0.3s ease;
+  line-height: 19px;
+}
+
+.formFieldTwo input:not(:first-child) {
+  margin-left: 15px;
+}
+
+.formField input::placeholder,
+.formFieldTwo input::placeholder {
+  color: var(--grayInputLight);
+}
+
+.formField input:focus,
+.formFieldTwo input:focus {
+  border-color: var(--primary);
+}
+
+.btnFinish {
+  width: 350px;
+  cursor: pointer;
+  border: none;
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: var(--success);
+  transition: all 0.15s;
+  line-height: 24px;
+}
+
+.btnFinish:hover {
+  background-color: var(--successHover);
+}
+
+.btnFinish:active {
+  background-color: var(--successActive);
+}

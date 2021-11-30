@@ -1,10 +1,12 @@
+import { useRouter } from 'next/router';
 import styles from './Header.module.css';
 
 function Header() {
+  const { asPath } = useRouter();
   return (
     <header className={styles.container}>
       <div className={styles.headerContainer}>
-        <h2>Estoque</h2>
+        <h2>{asPath}</h2>
         <div className={styles.profileContainer}>
           <div className={styles.profilePic}>R</div>
           <div className={styles.profileInfoContainer}>
