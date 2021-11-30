@@ -3,6 +3,9 @@
   --secondary: #0086a8;
   --tertiary: #006e8a;
   --grayInputLight: #555555;
+  --success: #28a745;
+  --successHover: #148c2f;
+  --successActive: #05731d;
 }
 
 body,
@@ -33,5 +36,10 @@ a {
 
 h1 {
   font-size: 38px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 24px;
   font-weight: 500;
 }

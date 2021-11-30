@@ -34,7 +34,7 @@ const Login: NextPage = () => {
             id="password"
           />
         </div>
-        <Link href="/">
+        <Link href="/estoque">
           <a className={styles.loginBtn}>Entrar</a>
         </Link>
       </form>

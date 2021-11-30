@@ -1,0 +1,43 @@
+.container {
+  min-width: 180px;
+  min-height: 100vh;
+  background-color: var(--primary);
+}
+
+.titleContainer {
+  width: 100%;
+  height: 72px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 148px;
+  background-color: var(--primary);
+  transition: all 0.15s;
+}
+
+.pageLink:hover {
+  background-color: #0086a8;
+}
+
+.pageLink:active {
+  background-color: #006e8a;
+}
+
+.inventoryIcon,
+.salesIcon {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.linkTitle {
+  font-size: 22px;
+  color: #fff;
+}
